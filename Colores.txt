@@ -1,0 +1,19 @@
+Colores
+
+#4ABDAC; Verde
+74,189,172
+
+#FC4A1A; Naranja
+252,74,26
+
+#F7B733; Amarillo
+247,183,51
+
+#DFDCE3; Gris
+223,220,227
+
+#FFF; Blanco
+255,255,255
+
+#000; Negro
+0,0,0
