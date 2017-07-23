@@ -1,0 +1,67 @@
+.sombra {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+.margenesCaja {
+    margin-bottom: 15px;
+}
+
+#bienvenido {
+    margin-bottom: 20px;
+    background-color: #4ABDAC
+}
+
+#botonGuardar {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#cambiarImagen {
+    margin: 10px 0px;
+    width: 80%;
+    height: 80%;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+#logoUsuario {
+    margin: 10px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+#informacionPersonal {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+#perfilCaja {
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#perfilUsuario {
+    font-size: 60px;
+    margin-left: 17%;
+    font-family: 'Anton', sans-serif;
+    color: #FFF
+}
+
+#bienvenidoTexto {
+    font-size: 20px;
+    margin-left: 17%;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF
+}
