@@ -42,3 +42,26 @@
   	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
+
+.panel-default-see2learn > .panel-heading-see2learn {
+  color: #333;
+  background-color: #4ABDAC;
+  border-color: #ddd;
+}
+
+.panel-default-see2learn:hover > .panel-heading-see2learn {
+  color: #333;
+  background-color: #F7B733;
+  border-color: #ddd;
+}
+
+.panel-heading-see2learn > .dropdown .dropdown-toggle {
+  color: #000;
+}
+
+.panel-title-see2learn{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #000;
+}
