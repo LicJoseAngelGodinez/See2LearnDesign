@@ -19,6 +19,12 @@
   	border-color: #ccc;
 }
 
+.btn-default-see2learn-warning {
+  color: #fff;
+    background-color: #000;
+    border-color: #ccc;
+}
+
 .btn-lg-see2learn, .btn-group-lg > .btn{
   padding: 10px 16px;
   font-size: 18px;
@@ -26,10 +32,25 @@
   border-radius: 6px;
   background-color: #FC4A1A;
 }
+
+.btn-lg-see2learn-warning, .btn-group-lg > .btn{
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  background-color: #000;
+}
+
 .btn-default-see2learn:hover{
 	color: #333;
   	background-color: #F7B733;
   	border-color: #adadad; 
+}
+
+.btn-default-see2learn-warning:hover{
+  color: #fff;
+    background-color: #d50000;
+    border-color: #adadad; 
 }
 
 .well-see2learn {
@@ -40,6 +61,17 @@
   	border: 1px solid #e3e3e3;
   	border-radius: 4px;
   	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.well-see2learn2 {
+  min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #F7B733;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
@@ -79,4 +111,11 @@
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.card-see2learn label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4ABDAC;
+  margin-bottom: 0px;
 }
