@@ -123,3 +123,18 @@
 .green {
   background-color: #4ABDAC;
 }
+
+.list-group-item-see2learn.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #4ABDAC;
+  background-color: #fff;
+}
+
+.list-group-item-see2learn {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #4ABDAC;
+  border: 1px solid #ddd;
+}
