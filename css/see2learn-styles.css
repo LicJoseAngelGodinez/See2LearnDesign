@@ -110,10 +110,17 @@ footer {
     position: relative;
     overflow: hidden;
     margin: 0px;    
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #FC4A1A;
     border-color: #ccc;    
 }
+
+.file-preview-input:hover {
+  color: #000;
+  background-color: #F7B733;
+
+}
+
 .file-preview-input input[type=file] {
 	position: absolute;
 	top: 0;
@@ -268,4 +275,20 @@ footer {
   margin-bottom: -1px;
   background-color: #4ABDAC;
   border: 1px solid #ddd;
+}
+
+.progress-bar-see2learn {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #4ABDAC;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
 }
