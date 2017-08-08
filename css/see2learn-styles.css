@@ -572,4 +572,7 @@ input[type="file"]{
     border-radius: 50px;
     cursor: pointer;
 }
-.custom-input-file:hover .uploadPhoto { display: block; }
+.custom-input-file:hover .uploadPhoto { 
+  display: block; 
+}
+
