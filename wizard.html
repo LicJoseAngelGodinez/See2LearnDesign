@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Proceso de Compra</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/see2learn-styles.css">
+
+    <!-- Custom Fonts -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="css/new-age.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/plugins/gsdk-bootstrap-wizard.css">
+
+
+</head>
+
+<body>
+
+    
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default-see2learn">
+                        
+<!--      Wizard container        -->
+            <div class="wizard-container">
+                <div class="card wizard-card" data-color="green" id="wizard">
+                    <form action="" method="">
+                <!--        You can switch ' data-color="azzure" '  with one of the next bright colors: "blue", "green", "orange", "red"          -->
+
+                    	<div class="wizard-header">
+                        	<h3>
+                        	   PROCESO DE <b>COMPRA</b><br>
+                        	   <small>A continuación seguiras el proceso de compra de productos en See 2 Learn.</small>
+                        	</h3>
+                    	</div>
+						<div class="wizard-navigation">
+							<ul>
+	                            <li><a href="#details" data-toggle="tab">Detalles de Compra</a></li>
+	                            <li><a href="#card" data-toggle="tab">Datos de Tarjeta</a></li>
+	                            <li><a href="#finish" data-toggle="tab">Compra Finalizada</a></li>
+	                        </ul>
+						</div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="details">
+                              <div class="row">
+                                  <h4 class="info-text"> A continuación breve descripción de tu compra. </h4>
+                                    <div class="col-sm-6 col-sm-offset-1">
+                                         <div class="form-group">
+                                            <label>Detalle de compra</label>
+                                            <textarea class="form-control" placeholder="" rows="9">
+                                            </textarea>
+                                          </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                         <div class="form-group">
+                                            <label>Saludos!</label>
+                                            <p class="description">En este apartado encontrarás el contenido del cuál vas a realizar el pago total por la cantidad siguiente.</p>
+                                            <div class="panel-see2learn panel-default-see2learn2 text-center">
+							                    <div class="panel-heading-see2learn">
+							                        <h3 class="panel-title-see2learn"><strong>Total</strong></h3>
+							                    </div>
+							                    <div class="panel-body">
+							                        <span class="price"><sup>$</sup>159<sup>99</sup></span>
+							                    </div>
+							                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="card">
+                                 <div class="row">
+                                  <div class="col-sm-12">
+                                    <h4 class="info-text"> Necesitaremos algunos datos de tu Tarjeta</h4>
+                                  </div>
+                                  <div class="col-sm-5 col-sm-offset-1">
+                                      <div class="form-group">
+                                        <label>Número de Tarjeta</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Número de tarjeta válido">
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-5">
+                                      <div class="form-group">
+                                        <label>Seleccione Tarjeta</label>
+                                        <select class="form-control">
+                                            <option disabled="" selected="">- Visa / Mastercard -</option>
+                                            <option>Visa</option>
+                                            <option>Mastercard</option>
+                                        </select>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-5 col-sm-offset-1">
+                                      <div class="form-group">
+                                        <label>Fecha de expiración</label>
+                                        <input type="text" class="form-control" id="exampleInputExpDate" placeholder="Mes/Año">
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-5">
+                                      <div class="form-group">
+                                          <label>Código CV</label>
+                                          <input type="text" class="form-control" placeholder="CCV">
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane" id="finish">
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <div class="col-sm-12">
+                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" >
+                                                
+                                                <div class="icon">
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                </div>
+                                                <h6>Gracias por tu compra!!!</h6>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="wizard-footer">
+                            	<div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-info btn-wd btn-sm' name='next' value='Siguiente' />
+                                    <input type='button' class='btn btn-finish btn-fill btn-info btn-wd btn-sm' name='finish' value='Finalizar' />
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd btn-sm' name='previous' value='Regresar' />
+                                </div>
+                                <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- wizard container -->
+
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+       
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/plugins/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/plugins/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="js/plugins//gsdk-bootstrap-wizard.js"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="js/plugins/jquery.validate.min.js"></script>
+
+</body>
+
+</html>
